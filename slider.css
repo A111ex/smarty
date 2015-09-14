@@ -1,0 +1,100 @@
+.slides {
+	position:absolute;
+	bottom:0px;
+	left:96px;
+	z-index:1; top:190px;
+	width:1143px; height:460px
+	
+}
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:1171px;
+	overflow:hidden;
+	position:relative;
+	display:none;height:468px;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+* /
+
+.slides_container a {
+	width:1171px;
+	height:460px;
+	display:block;
+}*/
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+.slides .next,.slides .prev {
+	position:absolute;
+	top:188px;
+	left:-64px;
+	width:43px;
+	height:80px;
+	display:block;
+	z-index:101;
+    text-align: center;
+	text-decoration:none;
+	color:#fff; 
+}
+
+.slides .next {
+	left:1040px;
+}
+
+#cont ul {
+    list-style: circle inside url(/images/bullet.gif);
+    margin: 0 0 15px;
+    padding: 0;
+}
+.slides ul.pagination { display:none}
+.pagination { 
+	width: 293px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#cont ul li {
+    list-style-type: none;
+    margin: 10px 0 0 40px;
+    padding: 0 0 0 19px;
+}
+.pagination li {
+    background: none repeat scroll 0 0 transparent !important;
+    float: left;
+    list-style: none outside none;
+    margin: 0 14px 0 0 !important;
+    padding: 0 !important;
+}
+.pagination li a {
+    background-image: url(/images/pagination.png);
+    background-position: 0 0;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 17px;
+    width: 17px;
+}
+
+.pagination li.current a {
+    background-position: 0 bottom;
+}

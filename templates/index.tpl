@@ -398,11 +398,11 @@
               <div class="item">
               	<div class="foto7"><a href="images/big_svid_o_reg.jpg" class="foto_gallery"><img src="images/svid_o_reg_thumb.jpg" width="204" height="295" alt=""/>Свидетельство о регистрации</a></div>
                 <div class="foto7"><a href="images/svid_o_postanovke.jpg" class="foto_gallery"><img src="images/svid_o_post_na.jpg" width="204" height="295" alt=""/>Свидетельство<br>о постановке на учет</a></div>
-                <div class="foto7"><a href="images/dokument.jpg" class="foto_gallery"><img src="images/dokument.jpg" width="204" height="295" alt=""/>Удостоверение к медали</a></div>
-                <div class="foto7"><a href="images/dokument.jpg" class="foto_gallery"><img src="images/dokument.jpg" width="204" height="295" alt=""/>Альманах «Золотые страницы 2012»</a></div>
+                <div class="foto7"><a href="images/IMG_4303.JPG" class="foto_gallery"><img src="images/medal_small.jpg" width="204" height="295" alt=""/>Медаль <br>«За заслуги»</a></div>
+                <div class="foto7"><a href="images/mozza.jpg" class="foto_gallery"><img src="images/str_small.jpg" width="204" height="295" alt=""/>Альманах «Золотые страницы 2014»</a></div>
               </div>
               <div class="item">
-              	<div class="foto7"><a href="images/dokument.jpg" class="foto_gallery"><img src="images/dokument.jpg" width="204" height="295" alt=""/>Альманах «Золотые страницы 2014»</a></div>
+              	<div class="foto7"><a href="images/dokument.jpg" class="foto_gallery"><img src="images/dokument.jpg" width="204" height="295" alt=""/>Альманах «Золотые страницы 2012»</a></div>
               </div>
              </div>
             <a href="#" class="prev"><img src="images/l.png" width="29" height="44" alt=""/></a>

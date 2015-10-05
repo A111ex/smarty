@@ -411,11 +411,13 @@ section#fan_grafic.s8 div.container div.caption{top:44px;}
 
 .win_container{
 	width: 755px;
-	height: 600px;
-	border: 2px solid #F05E4A; border-radius:10px; padding:20px;
+	height: auto;
+	border: 2px solid #F05E4A; 
+        border-radius:10px; 
+        padding:20px;
 }
 
-
+.win_container p{text-indent: 40px;}
 .clearfloat { 
 	clear:both;
 	height:0;
@@ -426,6 +428,8 @@ section#fan_grafic.s8 div.container div.caption{top:44px;}
 header, section, footer, aside, article, figure {
 	display: block;
 }
+
+#link_uslug > div.itemp.itemp1 > div:nth-child(4){font-size: 1em;}
 
 
 

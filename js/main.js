@@ -1,17 +1,49 @@
 var metrika = "";
 
-$(function(){
+$(function () {
+    //—Ä–∞–∑–¥–≤–∏–∂–∫–∞ –≤–µ—Ä—Ö–Ω–µ–≥–æ –º–µ–Ω—é
+    $("header nav li").width(1200 / $("header nav li").size());
 
-	var mailcheck = /^[a-z0-9_-]+@[a-z0-9-]+\.([a-z]{1,6}\.)?[a-z]{2,6}$/i;
-    var telcheck = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/i;
-	$('.main-menu').liLanding();
-	$('input').focus(function () {
-    $(this).attr('placeholder0', $(this).attr('placeholder'));
-    $(this).attr('placeholder', '').css({background: ''});
+    //—Ä–∞—Å—Ç—è–∂–∫–∞ –ø–æ –≤–µ—Ä—Ç–∏–∫–∞–ª–∏ –±–ª–æ–∫–æ–≤ —Å–µ–∫—Ü–∏–∏ 2
+    var _h = 0;
+    $(".s2 .itemp").each(function (index, element) {
+        if (_h < $(this).height()) {
+            _h = $(this).height();
+        }
     });
-	
-	
-	$('input').focus(function () {
+    $(".s2 .itemp").height(_h);
+//—Ä–∞—Å—Ç—è–∂–∫–∞ –≤ —Å–µ–∫—Ü–∏–∏ 4
+    var _h = 0;
+    $(".s4 .itempp").each(function (index, element) {
+        if (_h < $(this).height()) {
+            _h = $(this).height();
+        }
+    });
+    $(".s4 .itempp").height(_h);
+
+    $('.slides').slides({
+        hoverPause: false,
+        pagination: {active: false},
+        navigation: false
+    });
+    $(".foto_gallery").fancybox({rel: "gallery1"});
+
+    $(".s2 .detal").click(function (e) {
+        $(".s2_1 .container").slideToggle(600);
+    });
+
+    $(".slides .item .button a").fancybox({type: "iframe"});
+    $(".header_link a").fancybox({centerOnScroll: true, scrolling: 'no', padding: 5});
+    var mailcheck = /^[a-z0-9_-]+@[a-z0-9-]+\.([a-z]{1,6}\.)?[a-z]{2,6}$/i;
+    var telcheck = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/i;
+    $('.main-menu').liLanding();
+    $('input').focus(function () {
+        $(this).attr('placeholder0', $(this).attr('placeholder'));
+        $(this).attr('placeholder', '').css({background: ''});
+    });
+
+
+    $('input').focus(function () {
         $(this).attr('placeholder0', $(this).attr('placeholder'));
         $(this).attr('placeholder', '').css({background: ''});
     });
@@ -22,9 +54,9 @@ $(function(){
         }
     });
     $("input[name=phone]").mask("+7 (999) 999-99-99");
-	
-	
-	    $('.callbutton').click(function () {
+
+
+    $('.callbutton').click(function () {
         var name_field = $(this).parent().parent().find('[name="name"]')
         var phone_field = $(this).parent().parent().find('[name="phone"]')
 
@@ -59,7 +91,7 @@ $(function(){
                     $.fancybox({'href': 'images/call-ok.png', 'autoDimensions': false, 'height': 'auto', padding: 0});
                 },
                 error: function () {
-                    alert("Œ¯Ë·Í‡, ◊ÚÓ ÚÓ ÌÂ ÚÓ")
+                    alert("ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ, ÔøΩÔøΩÔøΩ ÔøΩÔøΩ ÔøΩÔøΩ ÔøΩÔøΩ")
                 },
             }).responseText;
 
@@ -68,10 +100,10 @@ $(function(){
         }
         return false;
     });
-	
-	
-	/* Ï‡ÎÂÌ¸Í‡ˇ ÙÓÏ‡ */
-		$('.small_callbutton').click(function () {
+
+
+    /* ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ ÔøΩÔøΩÔøΩÔøΩÔøΩ */
+    $('.small_callbutton').click(function () {
         var phone_field = $(this).parent().parent().find('[name="phone"]')
 
         var telcall = $(phone_field).val();
@@ -94,7 +126,7 @@ $(function(){
                     $.fancybox({'href': 'images/call-ok.png', 'autoDimensions': false, 'height': 'auto', padding: 0});
                 },
                 error: function () {
-                    alert("Œ¯Ë·Í‡, ◊ÚÓ ÚÓ ÌÂ ÚÓ")
+                    alert("ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ, ÔøΩÔøΩÔøΩ ÔøΩÔøΩ ÔøΩÔøΩ ÔøΩÔøΩ")
                 },
             }).responseText;
 

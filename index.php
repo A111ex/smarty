@@ -24,6 +24,8 @@ switch ($utm_campaign) {
         break;
     case ($utm_campaign == 'vipiska') : include_once (INC_DIR.'vipiska.php');
         break;
+    case ($utm_campaign == 'razvod') : include_once (INC_DIR.'razvod.php');
+        break;
     default: include_once (INC_DIR.'razdel-imushchestva.php');
         break;
 }

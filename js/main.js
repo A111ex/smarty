@@ -37,22 +37,22 @@ $(function () {
     var mailcheck = /^[a-z0-9_-]+@[a-z0-9-]+\.([a-z]{1,6}\.)?[a-z]{2,6}$/i;
     var telcheck = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/i;
     $('.main-menu').liLanding();
-    $('input').focus(function () {
-        $(this).attr('placeholder0', $(this).attr('placeholder'));
-        $(this).attr('placeholder', '').css({background: ''});
-    });
 
 
-    $('input').focus(function () {
-        $(this).attr('placeholder0', $(this).attr('placeholder'));
-        $(this).attr('placeholder', '').css({background: ''});
-    });
-    $('input').blur(function () {
-        var ph = $(this).attr('placeholder0');
-        if (ph.length > 0) {
-            $(this).attr('placeholder', ph);
+
+    $("input[placeholder]").focus(function () {
+        if (($(this).attr('placeholder')) == 'Введите имя') {
+            $(this).attr('placeholder', '')
         }
-    });
+    })
+
+    $("input[placeholder]").blur(function () {
+        if ($(this).attr('placeholder').length == 0) {
+            $(this).attr('placeholder', 'Введите имя')
+        }
+    })
+
+
     $("input[name=phone]").mask("+7 (999) 999-99-99");
 
 

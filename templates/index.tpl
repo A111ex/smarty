@@ -146,9 +146,9 @@
 			<div class="plashka1"><!-- <p>50 000 руб.</p> -->{$arResult.minimus} руб.</div>
 		</div>
                 
-		<div class="item"><img src="images/z1.png" width="173" height="182" alt=""/>25 % клиентов<br/>уже выбрали</div>
-		<div class="item item1"><img src="images/z2.png" width="173" height="182" alt=""/>25 % клиентов<br/>уже выбрали</div>
-		<div class="item item2"><img src="images/z3.png" width="173" height="182" alt=""/>25 % клиентов<br/>уже выбрали</div>
+		<div class="item"><img src="images/z1.png" width="173" height="182" alt=""/>35 % клиентов<br/>уже выбрали</div>
+		<div class="item item1"><img src="images/z2.png" width="173" height="182" alt=""/>50 % клиентов<br/>уже выбрали</div>
+		<div class="item item2"><img src="images/z3.png" width="173" height="182" alt=""/>15 % клиентов<br/>уже выбрали</div>
 		<div class="caption1"><span>ВЫГОДНО!</span> Оплаченную вами сумму мы <span>СРАЗУ</span> и <span>БЕСПЛАТНО</span><br>взыскиваем в вашу пользу с ответчика.</div>
 		<div class="detal">Узнайте подробнее, что включает каждый пакет услуг</div>
 	</div>
@@ -225,7 +225,7 @@
 		<div class="form_all">
 			<p>Оставьте заявку<br/>и получите оценку<br/>шансов по делу<br/>СЕГОДНЯ БЕСПЛАТНО</p>
 			<form>
-				<div class="input"><input type="text" name="name" placeholder="Имя" /></div>
+				<div class="input"><input type="text" name="name" placeholder="Введите имя" /></div>
 				<div class="input"><input type="text" name="phone" placeholder="Телефон" /></div>
 				<div class="button">
 					<div class="callbutton">Записаться на<br/> консультацию</div>
@@ -290,7 +290,7 @@
 			<li>вы консультируетесь бесплатно</li>
 			<li>вы общаетесь открыто тет-а-тет</li>
 			<li>вы узнаете юриста лично</li>
-			<li>ввы получаете пошаговую инструкцию для практического применения</li>
+			<li>вы получаете пошаговую инструкцию для практического применения</li>
 			<li>1 личная консультация проясняет ситуацию полностью и не требует повторных обращений</li>
 	  </ul>
 	</div>
@@ -474,7 +474,7 @@
 		<div class="form_all">
 			<p>Закажите <br>обратный звонок</p>
 			<form>
-				<div class="input"><input type="text" name="name" placeholder="Имя" /></div>
+				<div class="input"><input type="text" name="name" placeholder="Введите имя" /></div>
 				<div class="input"><input type="text" name="phone" placeholder="Телефон" /></div>
 				<div class="button">
 					<div class="callbutton">Обратный звонок</div>

@@ -88,6 +88,9 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 	background: linear-gradient(to top,#983224, #f05e4a);
 	cursor: pointer;
 }
+.s0 .form .button div:hover{
+	background: linear-gradient(to bottom, #983224, #f05e4a);
+}
 .s0 .form .button{text-align:center; padding-top:10px;}
 .s0 .note{font-style:italic; color:#fff; font-size:.8em; text-align:center; padding-top:15px;}
 .s0 .item {position:absolute; top:732px; left:180px; width:180px; height:auto; text-align:center; color:#313842; font-family: 'Avenir Next Cyr'; font-size:1.2em}
@@ -429,7 +432,7 @@ header, section, footer, aside, article, figure {
 	display: block;
 }
 
-#link_uslug > div.itemp.itemp1 > div:nth-child(4){font-size: 1em;}
+#link_uslug > div.itemp.itemp1 > div:nth-child(4){font-size: 15px;}
 
 
 

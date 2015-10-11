@@ -18,6 +18,7 @@ $smarty->cache_dir = '/cache/';
 $utm_campaign = $_GET['utm_campaign'];
 $utm_content = $_GET['utm_content'];
 //print ('<pre>'); print_r($utm_campaign);print ('</pre>'); 
+//
 //print ('<pre>'); print_r($utm_content);print ('</pre>');
 switch ($utm_campaign) {
     case ($utm_campaign == 'razdel') : include_once (INC_DIR.'razdel-imushchestva.php');

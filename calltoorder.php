@@ -22,7 +22,7 @@ if (isset($namecall) && isset($telcall)) {
     }
 
 	//$mail = "vic@victorial.biz, advokatkrasnodar@yandex.ru, MasterV12@ya.ru";
-    $mail = "MasterV12@ya.ru";
+    $mail = "MasterV12@ya.ru, viktorialbiz@yandex.ru";
     $title_mass = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=\"utf-8\"\r\n";
     $title_mass .= "From: victorial.biz";
     if ($_POST['metrika'] == 'akcia') {

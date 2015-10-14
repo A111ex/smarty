@@ -29,6 +29,8 @@ switch ($utm_campaign) {
         break;
     case ($utm_campaign == 'arbitrazh') : include_once (INC_DIR.'arbitrazh.php');
         break;
+    case ($utm_campaign == 'zadolzhennost') : include_once (INC_DIR.'zadolzhennost.php');
+        break;
     default: include_once (INC_DIR.'razdel-imushchestva.php');
         break;
 }

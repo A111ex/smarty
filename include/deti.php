@@ -1,20 +1,22 @@
 <?php
 
 switch ($utm_content) {
-    case ($utm_content == 'zadolzhennost-ooo'): $h1 = "Взыскание дебиторкой задолженности<br>ООО и ИП через суд";
+    case ($utm_content == 'deti-posle-razvoda'): $h1 = "Помощь при разделе детей<br>после развода.";
         break;
-    case ($utm_content == 'vozvrat-zadolzhennosti'): $h1 = "Возврат просроченной задолженности<br>от которой другие отказались";
+    case ($utm_content == 'iskovoe-zayavlenie-o-detyah'): $h1 = "Грамотное исковое заявление<br>об общении с ребенком за 1 день";
         break;
-    case ($utm_content == 'iskovoe-zayavlenie-v-sud-o-vzyskanii-zadolzhennosti'): $h1 = "Грамотные иски по задолженности + расчет<br> + претензионный порядок от 17 000 рублей!";
+    case ($utm_content == 'isk-deti'): $h1 = "Грамотные иски<br>по спорам о детях за 1 день.";
         break;
-    case ($utm_content == 'zadolzhennost-po-dogovoru'): $h1 = "Возврат просроченной задолженности,<br>от которой другие отказались";
+    case ($utm_content == 'deti&utm_content=sud-deti-otec'): $h1 = "Помощь отцам в суде<br>по спорам о детях";
         break;
-    case ($utm_content == 'neustojka-po-dogovoru'): $h1 = "Иски по взысканию неустойки + расчет <br>+ претензионный порядок от 17 000 рублей!";
+    case ($utm_content == 'obshchenie-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
         break;
-    case ($utm_content == 'peni-po-dogovoru'): $h1 = "Иски по взысканию пени + расчет<br>+ претензионный порядок от 17 000 рублей!";
+    case ($utm_content == 'videtsya-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
+        break;
+    case ($utm_content == 'mesto-zhitelstva-deti'): $h1 = "Определение места жительства ребенка<br>через суд  от 4900";
         break;
     
-    default:$h1 = "Взыскание дебиторкой задолженности<br>ООО и ИП через суд";
+    default:$h1 = "Помощь при разделе детей<br>после развода.";
         break;
 }
 $arResult = array(

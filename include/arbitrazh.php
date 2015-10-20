@@ -1,28 +1,28 @@
 <?php
 
 switch ($utm_content) {
-    case ($utm_content == 'iskovoe-neosnovatelnoe-obogashchenie'): $h1 = "Взыскание неосновательного обогащения в арбитражном суде от 13 000";
+    case ($utm_content == 'iskovoe-neosnovatelnoe-obogashchenie'): $h1 = "Взыскание неосновательного обогащения<br>в арбитражном суде от 13 000";
         break;
     
-    case ($utm_content == 'postavka-tovara-nenadlezhashchego-kachestva'): $h1 = "Грамотная помощь в суде по договорам поставки ";
+    case ($utm_content == 'postavka-tovara-nenadlezhashchego-kachestva'): $h1 = "Грамотная помощь в суде<br>по договорам поставки ";
         break;
 
-    case ($utm_content == 'dogovor-podryada-sud'): $h1 = "Грамотная помощь в суде по договорам подряда";
+    case ($utm_content == 'dogovor-podryada-sud'): $h1 = "Грамотная помощь в суде<br>по договорам подряда";
         break;
 
-    case ($utm_content == 'isk-arenda'): $h1 = "Грамотная помощь в суде по договорам аренды";
+    case ($utm_content == 'isk-arenda'): $h1 = "Грамотная помощь в суде<br>по договорам аренды";
         break;
 
-    case ($utm_content == 'isk-okazanie-uslug'): $h1 = "Грамотная помощь в суде по договорам оказания услуг";
+    case ($utm_content == 'isk-okazanie-uslug'): $h1 = "Грамотная помощь в суде<br>по договорам оказания услуг";
         break;
 
-    case ($utm_content == 'isk-arbitrazh'): $h1 = "Грамотные исковые и отзывы в арбитражный суд";
+    case ($utm_content == 'isk-arbitrazh'): $h1 = "Грамотные исковые и отзывы<br>в арбитражный суд";
         break;
 
-    case ($utm_content == 'zhaloba-arbitrazhnyj'): $h1 = "Грамотные апелляционные и кассационные жалобы в арбитражный суд";
+    case ($utm_content == 'zhaloba-arbitrazhnyj'): $h1 = "Грамотные апелляционные и кассационные жалобы<br>в арбитражный суд";
         break;
 
-    default:$h1 = "Взыскание неосновательного обогащения в арбитражном суде от 13 000";
+    default:$h1 = "Взыскание неосновательного обогащения<br>в арбитражном суде от 13 000";
         break;
 }
 $arResult = array(

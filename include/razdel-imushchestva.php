@@ -1,28 +1,35 @@
 <?php
-if ($utm_content == 'kvartira-razvod' || $utm_content == 'razdel-kvartiry') {
-    $h1 = "Раздел квартиры супругов через суд от 4900";
-} elseif ($utm_content == 'razdel-kredita' ||
-        $utm_content == 'razdel-dolgov' ||
-        $utm_content == 'razdel-ipoteki' ||
-        $utm_content == 'kredit-razvod' ||
-        $utm_content == 'razdel-kredita' ||
-        $utm_content == 'ipoteka-razvod') {
-    $h1 = "Раздел кредитов и долгов супругов через суд от 4900";
-} elseif ($utm_content == 'razdel-imushchestva-iskovoe' ||
-        $utm_content == 'razdel-imushchestva-zayavlenie' ||
-        $utm_content == 'iskovoe-o-razdele' ||
-        $utm_content == 'isk-o-razdele-imushchestva') {
-    $h1 = "Исковое заявление о разделе имущества супругов от 4900";
-} elseif ($utm_content == 'brachnyj-dogovor' || $utm_content == 'razdel-imushchestva-soglashenie') {
-    $h1 = "Исковое заявление о разделе имущества супругов от 4900";
-} elseif ($utm_content == 'imushchestvo-detej' ||
-        $utm_content == 'dolya-rebenka-v-kvartire' ||
-        $utm_content == 'razdel-imushchestva-deti') {
-    $h1 = "Раздел имущества супругов  и имущества детей при разводе";
-} else {
-    $h1 = "Раздел имущества супругов через суд от 4900";
-}
+switch ($utm_content) {
+    case ($utm_content == 'kvartira-razvod' ||
+          $utm_content == 'razdel-kvartiry'): $h1="Раздел квартиры супругов<br>через суд от 4900";
+        break;
+    
+    case ($utm_content == 'razdel-kredita'  ||
+          $utm_content == 'razdel-dolgov'   ||
+          $utm_content == 'razdel-ipoteki'  ||
+          $utm_content == 'kredit-razvod'   ||
+          $utm_content == 'razdel-kredita'  ||
+          $utm_content == 'ipoteka-razvod'): $h1="Раздел кредитов и долгов супругов<br>через суд от 4900";
+        break;
+    
+    case ($utm_content == 'razdel-imushchestva-iskovoe' ||
+          $utm_content == 'razdel-imushchestva-zayavlenie' || 
+          $utm_content == 'iskovoe-o-razdele' || 
+          $utm_content == 'isk-o-razdele-imushchestva'): $h1="Исковое заявление о разделе<br>имущества супругов от 4900";
+        break;
+    
+    case ($utm_content == 'brachnyj-dogovor'    ||
+          $utm_content == 'razdel-imushchestva-soglashenie'): $h1="Помощь при разделе  имущества супругов <br>по брачному договору или соглашению";
+        break;
+    
+    case ($utm_content == 'imushchestvo-detej'          ||
+           $utm_content == 'dolya-rebenka-v-kvartire'   || 
+           $utm_content == 'razdel-imushchestva-deti'): $h1="Раздел имущества супругов <br>и имущества детей при разводе";
+        break;
 
+    default:$h1="Раздел имущества супругов<br>через суд от 4900";
+        break;
+}
 $arResult = array(
     'title' => "Юридическая  помощь супругам<br>при разводе и  разделе имущества",
     'h1' => $h1,

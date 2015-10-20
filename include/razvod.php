@@ -1,64 +1,64 @@
 <?php
 
 switch ($utm_content) {
-    case ($utm_content == 'razvod-s-zhenoj'): $h1 = "Развод с женой от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'razvod-s-zhenoj'): $h1 = "Развод с женой от 1900<br>+ консультация по имуществу и детям";
         break;
 
-    case ($utm_content == 'razvod-suprugov'): $h1 = "Развод супругов  от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'razvod-suprugov'): $h1 = "Развод супругов  от 1900<br>+ консультация по имуществу и детям";
         break;
 
-    case ($utm_content == 'razvod-krasnodar'): $h1 = "Развод супругов в Краснодаре от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'razvod-krasnodar'): $h1 = "Развод супругов в Краснодаре от 1900<br>+ консультация по имуществу и детям";
         break;
 
-    case ($utm_content == 'rastorzhenie-braka-suprugov'): $h1 = "Расторжение брака от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'rastorzhenie-braka-suprugov'): $h1 = "Расторжение брака от 1900<br>+ консультация по имуществу и детям";
         break;
 
-    case ($utm_content == 'razvod-s-detmi'): $h1 = "Развод супругов с детьми от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'razvod-s-detmi'): $h1 = "Развод супругов с детьми от 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'rastorzhenie-braka-s-detmi'): $h1 = "Расторжение брака с детьми от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'rastorzhenie-braka-s-detmi'): $h1 = "Расторжение брака с детьми от 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'razvod-bez-soglasiya'): $h1 = "Развод супругов без согласия от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'razvod-bez-soglasiya'): $h1 = "Развод супругов без согласия от 1900<br>+ консультация по имуществу и детям";
         break;
    
-    case ($utm_content == 'rastorzhenie-braka-bez-soglasiya'): $h1 = "Расторжение брака без согласия от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'rastorzhenie-braka-bez-soglasiya'): $h1 = "Расторжение брака без согласия от 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'razvod-v-sud'): $h1 = "Развод через суд от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'razvod-v-sud'): $h1 = "Развод через суд от 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'rastorzhenie-braka-sud'): $h1 = "Расторжение брака через суд от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'rastorzhenie-braka-sud'): $h1 = "Расторжение брака через суд от 1900<br>+ консультация по имуществу и детям";
         break;
 
-    case ($utm_content == 'podat-razvod'): $h1 = "Помощь при подаче на развод от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'podat-razvod'): $h1 = "Помощь при подаче на развод от 1900<br>+ консультация по имуществу и детям";
         break;
   
-    case ($utm_content == 'advokat-razvod'): $h1 = "Помощь при разводе супругов от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'advokat-razvod'): $h1 = "Помощь при разводе супругов от 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'iskovoe-na-razvod'): $h1 = "Исковое на развод от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'iskovoe-na-razvod'): $h1 = "Исковое на развод от 1900<br>+ консультация по имуществу и детям";
         break;
  
-    case ($utm_content == 'iskovoe-na-rastorzhenie-braka'): $h1 = "Исковое о расторжении брака от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'iskovoe-na-rastorzhenie-braka'): $h1 = "Исковое о расторжении брака от 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'zayavlenie-razvod'): $h1 = "Заявление на развод через суд за 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'zayavlenie-razvod'): $h1 = "Заявление на развод через суд за 1900<br>+ консультация по имуществу и детям";
         break;
    
-    case ($utm_content == 'zayavlenie-rastorzhenie-braka'): $h1 = "Заявление в суд о расторжении брака за 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'zayavlenie-rastorzhenie-braka'): $h1 = "Заявление в суд о расторжении брака за 1900<br>+ консультация по имуществу и детям";
         break;
 
-    case ($utm_content == 'isk-razvod'): $h1 = "Иск в суд на развод за 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'isk-razvod'): $h1 = "Иск в суд на развод за 1900<br>+ консультация по имуществу и детям";
         break;
    
-    case ($utm_content == 'isk-rastorzhenie-braka'): $h1 = "Иск о расторжении брака за 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'isk-rastorzhenie-braka'): $h1 = "Иск о расторжении брака за 1900<br>+ консультация по имуществу и детям";
         break;
     
-    case ($utm_content == 'brakorazvodnyj-process'): $h1 = "Бракоразводный процесс от 1900 + консультация по имуществу и детям";
+    case ($utm_content == 'brakorazvodnyj-process'): $h1 = "Бракоразводный процесс от 1900<br>+ консультация по имуществу и детям";
         break;
 
-    default:$h1 = "Развод с мужем от 1900 + консультация по имуществу и детям";
+    default:$h1 = "Развод с мужем от 1900<br>+ консультация по имуществу и детям";
         break;
 }
 $arResult = array(

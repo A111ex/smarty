@@ -1,22 +1,22 @@
 <?php
 
 switch ($utm_content) {
-    case ($utm_content == 'deti-posle-razvoda'): $h1 = "Помощь при разделе детей<br>после развода.";
+    case ($utm_content == 'deti-posle-razvoda'): $h1 = "Помощь при разделе детей после развода.";
         break;
-    case ($utm_content == 'iskovoe-zayavlenie-o-detyah'): $h1 = "Грамотное исковое заявление<br>об общении с ребенком за 1 день";
+    case ($utm_content == 'iskovoe-zayavlenie-o-detyah'): $h1 = "Грамотное исковое заявление об общении с ребенком за 1 день ";
         break;
-    case ($utm_content == 'isk-deti'): $h1 = "Грамотные иски<br>по спорам о детях за 1 день.";
+    case ($utm_content == 'isk-deti'): $h1 = "Грамотные иски по спорам о детях за 1 день.";
         break;
-    case ($utm_content == 'deti&utm_content=sud-deti-otec'): $h1 = "Помощь отцам в суде<br>по спорам о детях";
+    case ($utm_content == 'sud-deti-otec'): $h1 = "Помощь отцам в суде по спорам о детях";
         break;
-    case ($utm_content == 'obshchenie-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
+    case ($utm_content == 'obshchenie-deti'): $h1 = "Установление через суд порядка общения с ребенком от 4900";
         break;
-    case ($utm_content == 'videtsya-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
+    case ($utm_content == 'videtsya-deti'): $h1 = "Установление через суд порядка общения с ребенком от 4900";
         break;
-    case ($utm_content == 'mesto-zhitelstva-deti'): $h1 = "Определение места жительства ребенка<br>через суд  от 4900";
+    case ($utm_content == 'mesto-zhitelstva-deti'): $h1 = "Определение места жительства ребенка через суд  от 4900";
         break;
     
-    default:$h1 = "Помощь при разделе детей<br>после развода.";
+    default:$h1 = "Помощь при разделе детей после развода.";
         break;
 }
 $arResult = array(
@@ -46,7 +46,7 @@ $arResult = array(
             'text' => "После развода жена запретила мне общение с сыном.  Я очень был привязан к сыну и не мог представить себе жизнь без него. После нескольких безуспешных месяцев пробиться к сыну, я обратился к юристам. Спасибо за помощь и понимание моей ситуации, профессиональное отношение к работе. Сейчас я добился регулярных встреч с ребенком. Он знает что я люблю его и всегда рядом.",
             'name' => 'Иванов Олег, 38 лет.',
             'more' => 'Данные изменены по просьбе клиента',
-            'link' => INC_REV . 'ivanov-olegs.html',
+            'link' => INC_REV . 'ivanov-oleg.html',
             'foto' => 'no_foto1.jpg',
         ),
         3 => array(

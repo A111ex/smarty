@@ -1,20 +1,20 @@
 <?php
 
 switch ($utm_content) {
-    case ($utm_content == 'zadolzhennost-ooo'): $h1 = "Взыскание дебиторкой задолженности<br>ООО и ИП через суд";
+    case ($utm_content == 'zadolzhennost-ooo'): $h1 = "Взыскание дебиторкой задолженности ООО и ИП через суд";
         break;
-    case ($utm_content == 'vozvrat-zadolzhennosti'): $h1 = "Возврат просроченной задолженности<br>от которой другие отказались";
+    case ($utm_content == 'vozvrat-zadolzhennosti'): $h1 = "Возврат просроченной задолженности от которой другие отказались";
         break;
-    case ($utm_content == 'iskovoe-zayavlenie-v-sud-o-vzyskanii-zadolzhennosti'): $h1 = "Грамотные иски по задолженности + расчет<br> + претензионный порядок от 17 000 рублей!";
+    case ($utm_content == 'iskovoe-zayavlenie-v-sud-o-vzyskanii-zadolzhennosti'): $h1 = "Грамотные иски по задолженности + расчет  + претензионный порядок от 17 000 рублей!";
         break;
-    case ($utm_content == 'zadolzhennost-po-dogovoru'): $h1 = "Возврат просроченной задолженности,<br>от которой другие отказались";
+    case ($utm_content == 'zadolzhennost-po-dogovoru'): $h1 = "Возврат просроченной задолженности, от которой другие отказались";
         break;
-    case ($utm_content == 'neustojka-po-dogovoru'): $h1 = "Иски по взысканию неустойки + расчет <br>+ претензионный порядок от 17 000 рублей!";
+    case ($utm_content == 'neustojka-po-dogovoru'): $h1 = "Иски по взысканию неустойки + расчет  + претензионный порядок от 17 000 рублей!";
         break;
-    case ($utm_content == 'peni-po-dogovoru'): $h1 = "Иски по взысканию пени + расчет<br>+ претензионный порядок от 17 000 рублей!";
+    case ($utm_content == 'peni-po-dogovoru'): $h1 = "Иски по взысканию пени + расчет + претензионный порядок от 17 000 рублей!";
         break;
     
-    default:$h1 = "Взыскание дебиторкой задолженности<br>ООО и ИП через суд";
+    default:$h1 = "Взыскание дебиторкой задолженности ООО и ИП через суд";
         break;
 }
 $arResult = array(

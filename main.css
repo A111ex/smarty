@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Avenir Next Cyr';
-  src: url('fonts/kIf3RJGg.eot'); /* IE9 Compat Modes */
-  src: url('fonts/kIf3RJGg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/kIf3RJGg.woff') format('woff'), /* Modern Browsers */
-       url('fonts/kIf3RJGg.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/kIf3RJGg.svg#dbbb551cc79e7dd0813a155fe563ae8a') format('svg'); /* Legacy iOS */
-       
-  font-style:   normal;
-  font-weight:  400;
+    font-family: 'Avenir Next Cyr';
+    src: url('fonts/kIf3RJGg.eot'); /* IE9 Compat Modes */
+    src: url('fonts/kIf3RJGg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/kIf3RJGg.woff') format('woff'), /* Modern Browsers */
+        url('fonts/kIf3RJGg.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/kIf3RJGg.svg#dbbb551cc79e7dd0813a155fe563ae8a') format('svg'); /* Legacy iOS */
+
+    font-style:   normal;
+    font-weight:  400;
 }
 
 
@@ -21,24 +21,24 @@ body {
 }
 
 a img {
-	border: none;
+    border: none;
 }
 
 a:link {
-	color: #313842;
-	text-decoration: underline;
+    color: #313842;
+    text-decoration: underline;
 }
 a:visited {
-	color: #313842;
-	text-decoration: underline;
+    color: #313842;
+    text-decoration: underline;
 }
 a:hover, a:active, a:focus {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .container {position:relative;
-	width: 1200px;
-	margin: 0 auto;
+            width: 1200px;
+            margin: 0 auto;
 }
 
 header { height:118px; position:fixed; top:0; left:0;  width:100%; background-image:url(images/fon_shapka.jpg); z-index:1000}
@@ -54,16 +54,23 @@ header nav li a{ display:block; text-decoration:none !important}
 header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 
 .content {
-	margin-top: 118px;
-	width: 1200px;
+    margin-top: 118px;
+    width: 1200px;
 }
 
 .s0{z-index:100}
 .s0>div{ height:1034px}
 .s0{background-image:url(images/fon_1.jpg);}
 .s0 .caption{background-color:#313842; position:absolute; top:15px; left:30px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); }
-.s0 .caption>div{width:1120px; height:90px;
-	border: 1px solid #FFFFFF; margin:2px; color:#fff; font-size:2em; text-align:center
+.s0 .caption>div{width:1120px; 
+                 height:90px;
+                 border: 1px solid #FFFFFF; 
+                 margin:2px; 
+                 color:#fff; 
+                 font-size:2.2em; 
+                 text-align:center;
+                 font-family: Arial;
+                 line-height: 84px;
 }
 .s0 .my{ position:absolute; top:122px; left:30px; width:683px; height:482px;box-shadow: 0 2px 10px rgba(0,0,0,0.5);}
 .s0 .caption1{ font-family:Arial;line-height:2.3em; text-align:center; font-size:2rem; font-weight:bold;background-color:#434d5a;width:683px; height:78px; position:absolute; top:619px; left:30px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); color:#f05e4a}
@@ -74,22 +81,22 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 .s0 .form .input {background-color:#fff; margin-left:22px; margin-right:22px; margin-bottom:10px}
 .form .button .callbutton{margin-left:10px; margin-right:10px;}
 .s0 .form .button div{
-	font-family:Arial;
-	padding-top: 10px;
-	padding-right: 7px;
-	padding-left: 7px;
-	padding-bottom: 10px;
-	width: 338px;
-	border-radius: 5px;
-	color: #fff;
-	border: none;
-	outline: none;
-	font-size:2.3em; font-weight:bold;
-	background: linear-gradient(to top,#983224, #f05e4a);
-	cursor: pointer;
+    font-family:Arial;
+    padding-top: 10px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    width: 338px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size:2.3em; font-weight:bold;
+    background: linear-gradient(to top,#983224, #f05e4a);
+    cursor: pointer;
 }
 .s0 .form .button div:hover{
-	background: linear-gradient(to bottom, #983224, #f05e4a);
+    background: linear-gradient(to bottom, #983224, #f05e4a);
 }
 .s0 .form .button{text-align:center; padding-top:10px;}
 .s0 .note{font-style:italic; color:#fff; font-size:.8em; text-align:center; padding-top:15px;}
@@ -121,19 +128,19 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 .form_all .input {background-color:#fff; margin-left:22px; margin-right:22px; margin-bottom:10px}
 .form_all .button .callbutton{margin-left:10px; margin-right:10px;}
 .form_all .button div{
-	 font-family:Arial;
-	padding-top: 10px;
-	padding-right: 7px;
-	padding-left: 7px;
-	padding-bottom: 10px;
-	width: 338px;
-	border-radius: 5px;
-	color: #fff;
-	border: none;
-	outline: none;
-	font-size:2.3em; font-weight:bold;
-	background: linear-gradient(to top,#983224, #f05e4a);
-	cursor: pointer;
+    font-family:Arial;
+    padding-top: 10px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    width: 338px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size:2.3em; font-weight:bold;
+    background: linear-gradient(to top,#983224, #f05e4a);
+    cursor: pointer;
 }
 .form_all .button{text-align:center; padding-top:10px;}
 .s1 .note{font-style:italic; color:#fff; font-size:.8em; text-align:center; padding-top:8px;}
@@ -150,41 +157,41 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 
 .s2 .caption{ position:absolute; top:80px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center}
 .s2 .itemp{
-	width: 347px;
-	min-height: 580px;
-	position: absolute;
-	left: 35px;
-	top: 180px;
-	border: 2px solid #F05E4A; border-radius:10px
+    width: 347px;
+    min-height: 580px;
+    position: absolute;
+    left: 35px;
+    top: 180px;
+    border: 2px solid #F05E4A; border-radius:10px
 }
 .s2 .itemp .plashka{background: linear-gradient(to top,#313843, #4e5764); color:#e6ddc4; border-radius:3px; padding:5px; margin:14px; text-align:center; font-family: 'Avenir Next Cyr';
-font-size:1.5rem}
+                    font-size:1.5rem}
 .s2 .itemp .plashka p{padding:0; margin:0;font-family:Arial;font-size:1.7rem; font-weight:bold}
 .s2 .itemp .text_container{ padding-left:17px; padding-right:17px; color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em}
 .s2 .itemp .text_container p{color:#f05e4a; font-family:Arial; font-size:1.1em; font-weight:bold}
 .s2 .itemp .text_container li{
-	list-style: none; 
-	margin: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-left: 10px;
-	padding-bottom: 0
+    list-style: none; 
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 10px;
+    padding-bottom: 0
 }
 .s2 .itemp .text_container ul{padding:0; margin:0}
 .s2 .itemp .text_container li:before{content:"-"; padding-right:10px}
 .s2 .plashka1{
-	font-family: Arial;
-	border-radius: 3px;
-	padding-top: 8px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-bottom: 8px;
-	margin: 14px;
-	text-align: center;
-	color: #fff;
-	font-size: 1.7em;
-	font-weight: bold;
-	background: linear-gradient(to top,#983224, #f05e4a);
+    font-family: Arial;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    margin: 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+    background: linear-gradient(to top,#983224, #f05e4a);
 }
 .s2 .plashka1 p{ padding:0; margin:0; color:#a5a5a5; text-decoration:line-through}
 .s2 .itemp1{ left:427px}
@@ -195,29 +202,29 @@ font-size:1.5rem}
 .s2 .caption1{position:absolute; text-align:center; left:0px; top:1112px; width:100%; height:auto;color:#313842; font-family: 'Avenir Next Cyr'; font-size:2em}
 .s2 .caption1 span{color:#f05e4a;}
 .s2 .detal{color:#e5dcc2; background-color:#313842; position:absolute; left:76px; 
-top:1240px; width:1050px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); cursor:pointer; padding:15px; 
-text-align:center;font-family: 'Avenir Next Cyr'; font-size:2em}
+           top:1240px; width:1050px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); cursor:pointer; padding:15px; 
+           text-align:center;font-family: 'Avenir Next Cyr'; font-size:2em}
 
 
 .s2_1 .itempp{
-	width: 347px;
-	min-height: 380px;
-	position: absolute;
-	left: 35px;
-	top: 0px;
-	border: 2px solid #F05E4A; border-radius:10px
+    width: 347px;
+    min-height: 380px;
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    border: 2px solid #F05E4A; border-radius:10px
 }
 .s2_1 .itempp .plashka{background: linear-gradient(to top,#313843, #4e5764); color:#e6ddc4; border-radius:3px; padding:5px; margin:14px; text-align:center; font-family: 'Avenir Next Cyr';
-font-size:1.5rem}
+                       font-size:1.5rem}
 .s2_1 .itempp .plashka p{padding:0; margin:0;font-family:Arial;font-size:1.7rem; font-weight:bold}
 .s2_1 .itempp .text_container{ padding-left:17px; padding-right:17px; color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em}
 .s2_1 .itempp .text_container p{color:#f05e4a; font-family:Arial; font-size:1.1em; font-weight:bold}
 .s2_1 .itempp .text_container li{
-	margin-top: 0;
-	margin-right: 0;
-	margin-left: 20px;
-	margin-bottom: 0;
-	padding: 0;color:#f05e4a;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 0;color:#f05e4a;
 }
 .s2_1 .itempp .text_container li p{color:#313842; font-weight:normal; padding:0; margin:0; font-size:1.2rem}
 .s2_1 .itempp .text_container ul{padding:0; margin:0}
@@ -238,26 +245,26 @@ font-size:1.5rem}
 .s3 .caption1 p{padding:0; margin:0; color:#f05e4a; font-weight:bold;font-family:Arial;}
 .s3 .caption1 span{color:#f05e4a}
 .slides .item{
-	width: 1015px;
-	height: 460px; color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em;
-	border: 2px solid #F05E4A; border-radius:10px; position:relative
+    width: 1015px;
+    height: 460px; color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em;
+    border: 2px solid #F05E4A; border-radius:10px; position:relative
 }
 .slides .item .foto{top:35px; position:absolute; left:50px; width:242px}
 .slides .item .caption2{top:28px; position:absolute; left:339px; width:auto;color:#f05e4a; font-weight:bold;font-family:Arial; font-size:1.3em;}
 .slides .item .text{top:121px; position:absolute; left:339px; width:630px; height:250px;color:#313842; font-size:1em;font-family: 'Avenir Next Cyr'; overflow:hidden}
 .slides .item .button{
-	font-family: Arial;top:373px; position:absolute; left:758px; width:170px; 
-	border-radius: 3px;
-	padding-top: 8px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-bottom: 8px;
-	margin: 10px;
-	text-align: center;
-	color: #e1d9be;
-	font-size: 1.2em; cursor:pointer;
-	font-weight: bold;
-	background: linear-gradient(to top,#983224, #f05e4a); line-height:1;
+    font-family: Arial;top:373px; position:absolute; left:758px; width:170px; 
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    margin: 10px;
+    text-align: center;
+    color: #e1d9be;
+    font-size: 1.2em; cursor:pointer;
+    font-weight: bold;
+    background: linear-gradient(to top,#983224, #f05e4a); line-height:1;
 }
 .slides .item .button a{color:inherit; text-decoration:none !important}
 .s3  .downitem{height:11px; background-image:url(images/poloska.png); text-align:center; z-index:500}
@@ -270,30 +277,30 @@ font-size:1.5rem}
 .s4 .caption{ position:absolute; top:65px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
 .s4 .caption p{ font-size:1.4rem; font-weight:normal;font-family: 'Avenir Next Cyr';}
 .s4 .itempp{
-	width: 538px;
-	min-height: 500px;
-	position: absolute;
-	left: 38px;
-	top: 250px;
-	border: 2px solid #F05E4A; border-radius:10px
+    width: 538px;
+    min-height: 500px;
+    position: absolute;
+    left: 38px;
+    top: 250px;
+    border: 2px solid #F05E4A; border-radius:10px
 }
 .s4 .itempp .plashka{background: linear-gradient(to top,#313843, #4e5764); color:#e6ddc4; border-radius:3px; padding:5px; margin:14px; text-align:center; font-family: 'Avenir Next Cyr';
-font-size:1.5rem}
+                     font-size:1.5rem}
 .s4 .itempp .plashka p{padding:0; margin:0;font-family:Arial;font-size:1.7rem; font-weight:bold}
 .s4 .itempp .text_container{ padding-left:17px; padding-right:17px; color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em}
 .s4 .itempp .text_container p{color:#f05e4a; font-family:Arial; font-size:1.1em; font-weight:bold}
 .s4 .itempp .text_container li{
-	list-style: none; 
-	margin: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-left: 40px;
-	padding-bottom: 15px; 
+    list-style: none; 
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 40px;
+    padding-bottom: 15px; 
 }
 .s4 .itempp .text_container ul{padding:0; margin:0}
 .s4 .itempp .text_container li:before{ padding-right:48px; background-image:url(images/krestik.png); background-repeat:no-repeat; content:" "; font-size:25px}
 .s4 .itempp .text_container li span{
-	padding: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
 }
 .s4 .itempp1{ left:624px}
 .s4 .itempp1 .text_container li:before{ background-image:url(images/galka.png);}
@@ -304,14 +311,14 @@ font-size:1.5rem}
 .s4 .input input{border:none; width:93%; font-size:1.4em; margin-left:10px; margin-right:10px;outline: none;}
 .s4 .input {background-color:#fff; margin-left:75px; margin-right:22px; margin-bottom:10px; }
 .s4 .button div{
-	 font-family:Arial;
-	border-radius: 5px;
-	color: #fff;
-	border: none;
-	outline: none;
-	font-size:1.3em; font-weight:bold;
-	background: linear-gradient(to top,#983224, #f05e4a); width:413px; padding-top:5px; padding-bottom:5px;
-	cursor: pointer;
+    font-family:Arial;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size:1.3em; font-weight:bold;
+    background: linear-gradient(to top,#983224, #f05e4a); width:413px; padding-top:5px; padding-bottom:5px;
+    cursor: pointer;
 }
 .s4 .button{text-align:center; padding-top:10px; display:inline-block;padding-left:110px}
 .s4 .caption3{ position:absolute; top:1190px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
@@ -328,23 +335,23 @@ font-size:1.5rem}
 .s5 table{ width:100%; padding-top:190px}
 .s5 table td{vertical-align:top; padding:10px}
 .s5 .itemp{
-	width: 100%;
-	min-height: 366px;
-	border: 2px solid #F05E4A; border-radius:10px
+    width: 100%;
+    min-height: 366px;
+    border: 2px solid #F05E4A; border-radius:10px
 }
 .s5 .itemp .plashka{
-	background: linear-gradient(to top,#313843, #4e5764);
-	color: #e6ddc4;
-	border-radius: 3px;
-	padding-top: 5px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 5px;
-	margin: 14px;
-	text-align: left;
-	font-family: 'Avenir Next Cyr';
-	font-size: 1.5rem;
-	width: 760px
+    background: linear-gradient(to top,#313843, #4e5764);
+    color: #e6ddc4;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin: 14px;
+    text-align: left;
+    font-family: 'Avenir Next Cyr';
+    font-size: 1.5rem;
+    width: 760px
 }
 
 .s5 .itemp .text_container{ padding-left:17px; padding-right:17px; color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em}
@@ -359,11 +366,11 @@ font-size:1.5rem}
 .s6 .caption{ position:absolute; top:80px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
 .s6 .rast{height:209px}
 .s6 .itemp{
-	width: 1046px;
-	min-height: 543px;
-	border: 2px solid #F05E4A; border-radius:10px; position:relative;
-	margin-left:57px;  padding:20px;color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em
-	
+    width: 1046px;
+    min-height: 543px;
+    border: 2px solid #F05E4A; border-radius:10px; position:relative;
+    margin-left:57px;  padding:20px;color:#313842;font-family: 'Avenir Next Cyr'; font-size:1.1em
+
 }
 .s6 .itemp:before{ font-size:1.5rem;background-image:url(images/fon_1.jpg);content:" 100% ГАРАНТИИ ВОЗВРАТА ДЕНЕГ ";color:#f05e4a; width:auto; font-weight:bold; padding-left:15px; padding-right:13px; position:absolute; top:-19px; left:320px;font-family: 'Avenir Next Cyr';}
 .s6 .pechat_container{position:relative}
@@ -384,15 +391,15 @@ font-size:1.5rem}
 .s8 .caption{ position:absolute; top:80px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
 .s8 .caption1{ position:absolute;font-size:1.5rem;  top:160px; left:80px; width:auto; height:auto; color:#313842;font-family: 'Avenir Next Cyr';}
 .s8 .caption1 p{
-	font-family: Arial;
-	font-size: 2rem;
-	font-weight: bold;
-	color: #F05E4A;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 0;
-	margin: 0;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F05E4A;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin: 0;
 }
 .s8 .phone{ position:absolute;top:170px; left:775px; width:auto; height:auto;color:#313842; font-family:Arial; font-size:2rem; font-weight:bold}
 .s8 .phone_img{ position:absolute;top:200px; left:692px; width:auto; height:auto;}
@@ -413,23 +420,23 @@ font-size:1.5rem}
 section#fan_grafic.s8 div.container div.caption{top:44px;}
 
 .win_container{
-	width: 755px;
-	height: auto;
-	border: 2px solid #F05E4A; 
-        border-radius:10px; 
-        padding:20px;
+    width: 755px;
+    height: auto;
+    border: 2px solid #F05E4A; 
+    border-radius:10px; 
+    padding:20px;
 }
 
 .win_container p{text-indent: 40px;}
 .clearfloat { 
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
 }
 
 header, section, footer, aside, article, figure {
-	display: block;
+    display: block;
 }
 
 #link_uslug > div.itemp.itemp1 > div:nth-child(4){font-size: 15px;}

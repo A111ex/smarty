@@ -42,15 +42,15 @@ $(function () {
 
     $("input[placeholder]").focus(function () {
         if (($(this).attr('placeholder')) == 'Введите имя') {
-            $(this).attr('placeholder', '')
+            $(this).attr('placeholder', '');
         }
-    })
+    });
 
     $("input[placeholder]").blur(function () {
         if ($(this).attr('placeholder').length == 0) {
-            $(this).attr('placeholder', 'Введите имя')
+            $(this).attr('placeholder', 'Введите имя');
         }
-    })
+    });
 
 
     $("input[name=phone]").mask("+7 (999) 999-99-99");

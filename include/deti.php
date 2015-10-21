@@ -1,22 +1,22 @@
 <?php
 
 switch ($utm_content) {
-    case ($utm_content == 'deti-posle-razvoda'): $h1 = "Помощь при разделе детей после развода.";
+    case ($utm_content == 'deti-posle-razvoda'): $h1 = "Помощь при разделе детей<br>после развода.";
         break;
-    case ($utm_content == 'iskovoe-zayavlenie-o-detyah'): $h1 = "Грамотное исковое заявление об общении с ребенком за 1 день ";
+    case ($utm_content == 'iskovoe-zayavlenie-o-detyah'): $h1 = "Грамотное исковое заявление<br>об общении с ребенком за 1 день";
         break;
-    case ($utm_content == 'isk-deti'): $h1 = "Грамотные иски по спорам о детях за 1 день.";
+    case ($utm_content == 'isk-deti'): $h1 = "Грамотные иски<br>по спорам о детях за 1 день.";
         break;
-    case ($utm_content == 'sud-deti-otec'): $h1 = "Помощь отцам в суде по спорам о детях";
+    case ($utm_content == 'deti&utm_content=sud-deti-otec'): $h1 = "Помощь отцам в суде<br>по спорам о детях";
         break;
-    case ($utm_content == 'obshchenie-deti'): $h1 = "Установление через суд порядка общения с ребенком от 4900";
+    case ($utm_content == 'obshchenie-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
         break;
-    case ($utm_content == 'videtsya-deti'): $h1 = "Установление через суд порядка общения с ребенком от 4900";
+    case ($utm_content == 'videtsya-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
         break;
-    case ($utm_content == 'mesto-zhitelstva-deti'): $h1 = "Определение места жительства ребенка через суд  от 4900";
+    case ($utm_content == 'mesto-zhitelstva-deti'): $h1 = "Определение места жительства ребенка<br>через суд  от 4900";
         break;
     
-    default:$h1 = "Помощь при разделе детей после развода.";
+    default:$h1 = "Помощь при разделе детей<br>после развода.";
         break;
 }
 $arResult = array(
@@ -54,7 +54,7 @@ $arResult = array(
             'text' => "Огромное спасибо, что могу видеть свою дочь. После суда о разводе жена запретила ей любое общение со мной, даже по телефону. Через суд с юристами добились графика посещений. Я даже не ожидал такого. У меня  новая семья, но даже с ночевкой на выходные дочь могу забирать. Спасибо за помощь",
             'name' => 'Григорьев Семен, 42 года',
             'more' => 'Данные изменены по просьбе клиента',
-            'link' => INC_REV . 'agro-market.html',
+            'link' => INC_REV . 'grigorev-semen.html',
             'foto' => 'no_foto1.jpg',
         ),
     ),

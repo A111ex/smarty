@@ -67,16 +67,14 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
                  border: 1px solid #FFFFFF; 
                  margin:2px; 
                  color:#fff; 
-                 font-size:2.2em; 
+                 font-size:2em; 
                  text-align:center;
-                 font-family: Arial;
-                 line-height: 84px;
 }
 .s0 .my{ position:absolute; top:122px; left:30px; width:683px; height:482px;box-shadow: 0 2px 10px rgba(0,0,0,0.5);}
 .s0 .caption1{ font-family:Arial;line-height:2.3em; text-align:center; font-size:2rem; font-weight:bold;background-color:#434d5a;width:683px; height:78px; position:absolute; top:619px; left:30px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); color:#f05e4a}
 .s0 .strelka{ position:absolute; top:619px; left:747px; width:auto; height:auto;}
 .s0 .form{ background-color:#434d5a;width:380px; height:389px; position:absolute; top:170px; left:770px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); color:#f05e4a}
-.s0 .form p{color:#e6dec4; text-align:center; font-size:1.65rem; letter-spacing:1px; margin-bottom:5px}
+.s0 .form p{color:#e6dec4; text-align:center; font-size:1.65rem; letter-spacing:1px; padding: calc(10%) 0;}
 .s0 .form .input input{border:none; width:93%; font-size:1.4em; margin-left:10px; margin-right:10px;outline: none;}
 .s0 .form .input {background-color:#fff; margin-left:22px; margin-right:22px; margin-bottom:10px}
 .form .button .callbutton{margin-left:10px; margin-right:10px;}
@@ -94,6 +92,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
     font-size:2.3em; font-weight:bold;
     background: linear-gradient(to top,#983224, #f05e4a);
     cursor: pointer;
+    line-height: 35px;
 }
 .s0 .form .button div:hover{
     background: linear-gradient(to bottom, #983224, #f05e4a);
@@ -361,10 +360,10 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 
 
 .s6{z-index:106}
-.s6>div{ min-height:940px}
+.s6>div{ min-height:825px}
 .s6{background-image:url(images/fon_1.jpg);}
 .s6 .caption{ position:absolute; top:80px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
-.s6 .rast{height:209px}
+.s6 .rast{height:100px}
 .s6 .itemp{
     width: 1046px;
     min-height: 543px;

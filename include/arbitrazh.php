@@ -45,7 +45,7 @@ $arResult = array(
             'name' => 'ООО фирма &laquo;Вилес&raquo;',
             'more' => 'г. Краснодар ',
             'link' => INC_REV . 'veles.html',
-            'foto' => 'no_foto1.jpg',
+            'foto' => 'veles-small.jpg',
         ),
         2 => array(
             'title' => 'Сотрудничаем с адвокатом уже 3 года по договорам оказания услуг техникой!',
@@ -61,7 +61,7 @@ $arResult = array(
             'name' => 'ООО &laquo;АгроМаркет&raquo;',
             'more' => 'г. Краснодар ',
             'link' => INC_REV . 'agro-market.html',
-            'foto' => 'no_foto1.jpg',
+            'foto' => 'agro-small.jpg',
         ),
     ),
 );

@@ -35,16 +35,16 @@
             <div class="content container">
                 <div class="caption"><div>{$arResult.h1}</div></div>
                 <div class="my"><img src="images/pic_1.jpg" width="683" height="482" alt=""/></div>
-                <div class="caption1">Получи оценку своих шансов по делу</div>
+                <div class="caption1">Получи полную консультацию</div>
                 <div class="strelka"><img src="images/strelka.png" width="241" height="50" alt=""/></div>
                 <div class="form">
-                    <p>Оставьте заявку и<br /> получите оценку <br/>шансов по делу <br/>СЕГОДНЯ БЕСПЛАТНО</p>
+                    <p>СЕГОДНЯ БЕСПЛАТНО</p>
 
                     <form>
                         <div class="input"><input type="text" name="name" placeholder="Введите имя" /></div>
                         <div class="input"><input type="text" name="phone" placeholder="Введите телефон" /></div>
                         <div class="button">
-                            <div type="submit" class="callbutton">Оценить шансы</div>
+                            <div type="submit" class="callbutton">Получить консультацию</div>
                         </div>
                     </form>
                     <div class="note">Мы Вам перезвоним в течении 30 минут</div>
@@ -59,7 +59,7 @@
         <section class="s1"><a name="s1"></a>
             <div class="container">
                 <div class="znak"><img src="images/znak.png" width="233" height="208" alt=""/></div>
-                <div class="caption">Узнайте, какие катастрофические<br/>последствия влечет ваше бездействие</div>
+                <div class="caption">Мы поможем</div>
                 <div class="list">
                     <ul>
                         {foreach from=$arResult.caption item=item}
@@ -221,7 +221,7 @@
 
         <section class="s3"><a name="s3"></a>
             <div class="container">
-                <div class="caption landingItem" id="link_otziv">Какой результат по схожим делам<br/>получили более 120 наших клиентов?</div>
+                <div class="caption landingItem" id="link_otziv">Отзывы наших клиентов</div>
                 <div class="form_all">
                     <p>Оставьте заявку<br/>и получите оценку<br/>шансов по делу<br/>СЕГОДНЯ БЕСПЛАТНО</p>
                     <form>
@@ -263,8 +263,8 @@
 
         <section class="s4"><a name="s4"></a>
             <div class="container">
-                <div class="caption">Увеличьте свой шанс выиграть на 25 %<br/>с помощью личной консультации
-                    <p>7 главных преимуществ личной консультации</p>
+                <div class="caption">Почему личная консультация<br/>лучше консультации по телефону
+{*                    <p>7 главных преимуществ личной консультации</p>*}
                 </div>
                 <div class="itempp">
                     <div class="plashka">Консультация по телефону</div>
@@ -370,7 +370,7 @@
 
         <section class="s6"><a name="s6"></a>
             <div class="container">
-                <div class="caption">Мы даем 100% гарантию возврата денег,<br/>потому что уверены в своем профессионализме!</div>
+                {*<div class="caption">Мы даем 100% гарантию возврата денег,<br/>потому что уверены в своем профессионализме!</div>*}
                 <div class="rast"></div>
                 <div class="itemp"><br><br>В случае возврата судом подготовленного нами искового заявления или жалобы при условии выполнения всех наших рекомендаций при
                     их подаче мы гарантируем возврат вам в течение 1 дня 100 % оплаченной суммы за подготовку этого документа.<br><br>
@@ -402,7 +402,9 @@
                             <div class="foto7"><a href="images/mozza.jpg" class="foto_gallery"><img src="images/str_small.jpg" width="204" height="295" alt=""/>Альманах «Золотые страницы 2014»</a></div>
                         </div>
                         <div class="item">
-                            <div class="foto7"><a href="images/dokument.jpg" class="foto_gallery"><img src="images/dokument.jpg" width="204" height="295" alt=""/>Альманах «Золотые страницы 2012»</a></div>
+                            <div class="foto7"><a href="images/2014-big.jpg" class="foto_gallery"><img src="images/2014-small.jpg" width="204" height="295" alt="Альманах Золотые страницы 2012"/>Альманах «Золотые страницы 2012»</a></div>
+                            <div class="foto7"><a href="images/Layout056.jpg" class="foto_gallery"><img src="images/agro-small.jpg" width="204" height="295" alt="Отзыв ООО АгроМаркет"/>Отзыв ООО АгроМаркет</a></div>
+                            <div class="foto7"><a href="images/Layout058.jpg" class="foto_gallery"><img src="images/veles-small.jpg" width="204" height="295" alt="Отзыв компании ООО Вилес"/>Отзыв<br />ООО Вилес</a></div>
                         </div>
                     </div>
                     <a href="#" class="prev"><img src="images/l.png" width="29" height="44" alt=""/></a>

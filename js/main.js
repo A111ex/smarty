@@ -23,14 +23,14 @@ $(function () {
 
     $('.slides').slides({
         hoverPause: false,
-        pagination: {active: false},
+        //pagination: {active: false},
         navigation: false
     });
     $(".foto_gallery").fancybox({rel: "gallery1"});
 
-    $(".s2 .detal").click(function (e) {
-        $(".s2_1 .container").slideToggle(600);
-    });
+//    $(".s2 .detal").click(function (e) {
+//        $(".s2_1 .container").slideToggle(600);
+//    });
 
     $(".slides .item .button a").fancybox({type: "iframe"});
     $(".header_link a").fancybox({centerOnScroll: true, scrolling: 'no', padding: 5});

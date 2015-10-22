@@ -109,9 +109,9 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 .s1{z-index:101}
 .s1>div{ height:1133px}
 .s1{background-image:url(images/fon_2.jpg);}
-.s1 .znak{ position:absolute; top:86px; left:73px; width:auto; height:auto}
+.s1 .znak{ position:absolute; left:73px; width:auto; height:auto}
 .s1 .caption{ position:absolute; top:135px; left:345px; width:auto; height:auto; color:#313842; font-family:Arial; font-size:2rem; font-weight:bold}
-.s1 .list{ position:absolute; top:330px; left:224px; width:auto; height:auto; color:#313842; font-family: 'Avenir Next Cyr'; font-size:1.6rem}
+.s1 .list{ position:absolute; top:183px; left:224px; width:auto; height:auto; color:#313842; font-family: 'Avenir Next Cyr'; font-size:1.6rem}
 .s1 .list ul{display:block}
 .s1 .list li{ min-height:65px; display:block; background-image:url(images/znak_2.png); background-repeat:no-repeat; background-position:left top; padding-left:30px; padding-bottom:17px;}
 .s1 .list li p{padding-top:10px; margin:0}
@@ -141,13 +141,14 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
     background: linear-gradient(to top,#983224, #f05e4a);
     cursor: pointer;
 }
+.form_all .button div:hover{background: linear-gradient(to bottom, #983224, #f05e4a);}
 .form_all .button{text-align:center; padding-top:10px;}
 .s1 .note{font-style:italic; color:#fff; font-size:.8em; text-align:center; padding-top:8px;}
 .s1 .downitem{height:11px; background-image:url(images/poloska.png); text-align:center; z-index:500}
 
 
 .s2{z-index:102;}
-.s2>div{ height:1342px;}
+.s2>div{ height:1061px;}
 .s2{background-image:url(images/fon_1.jpg); }
 
 .s2_1{z-index:102;}
@@ -157,7 +158,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 .s2 .caption{ position:absolute; top:80px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center}
 .s2 .itemp{
     width: 347px;
-    min-height: 580px;
+    min-height: 605px;
     position: absolute;
     left: 35px;
     top: 180px;
@@ -198,7 +199,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 .s2 .item {position:absolute; top:850px; left:118px; width:180px; height:auto; text-align:center; color:#313842; font-family: 'Avenir Next Cyr'; font-size:1.2em}
 .s2 .item1{ left:515px}
 .s2 .item2{ left:916px}
-.s2 .caption1{position:absolute; text-align:center; left:0px; top:1112px; width:100%; height:auto;color:#313842; font-family: 'Avenir Next Cyr'; font-size:2em}
+.s2 .caption1{position:absolute; text-align:center; left:0px; top:895px; width:100%; height:auto;color:#313842; font-family: 'Avenir Next Cyr'; font-size:2em}
 .s2 .caption1 span{color:#f05e4a;}
 .s2 .detal{color:#e5dcc2; background-color:#313842; position:absolute; left:76px; 
            top:1240px; width:1050px;box-shadow: 0 2px 10px rgba(0,0,0,0.5); cursor:pointer; padding:15px; 
@@ -265,6 +266,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
     font-weight: bold;
     background: linear-gradient(to top,#983224, #f05e4a); line-height:1;
 }
+.slides .item .button:hover{background: linear-gradient(to bottom, #983224, #f05e4a);}
 .slides .item .button a{color:inherit; text-decoration:none !important}
 .s3  .downitem{height:11px; background-image:url(images/poloska.png); text-align:center; z-index:500}
 
@@ -280,7 +282,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
     min-height: 500px;
     position: absolute;
     left: 38px;
-    top: 250px;
+    top: 200px;
     border: 2px solid #F05E4A; border-radius:10px
 }
 .s4 .itempp .plashka{background: linear-gradient(to top,#313843, #4e5764); color:#e6ddc4; border-radius:3px; padding:5px; margin:14px; text-align:center; font-family: 'Avenir Next Cyr';
@@ -319,6 +321,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
     background: linear-gradient(to top,#983224, #f05e4a); width:413px; padding-top:5px; padding-bottom:5px;
     cursor: pointer;
 }
+.s4 .button div:hover{background: linear-gradient(to bottom, #983224, #f05e4a);}
 .s4 .button{text-align:center; padding-top:10px; display:inline-block;padding-left:110px}
 .s4 .caption3{ position:absolute; top:1190px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
 .s4 .item {position:absolute; top:1277px; left:180px; width:180px; height:auto; text-align:center; color:#313842; font-family: 'Avenir Next Cyr'; font-size:1.2em}
@@ -441,6 +444,6 @@ header, section, footer, aside, article, figure {
 #link_uslug > div.itemp.itemp1 > div:nth-child(4){font-size: 15px;}
 
 
-
+.s2 .top-aligh{top:1000px}
 
 

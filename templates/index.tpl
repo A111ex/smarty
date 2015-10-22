@@ -69,7 +69,7 @@
                         {/foreach}
                     </ul>
                 </div>
-
+                 
                 <div class="znak3"><img src="images/znak_3.png" width="103" height="138" alt=""/></div>
                 <div class="caption3">НЕ ТЕРЯЙТЕ ВРЕМЯ!</div>
                 <div class="caption4">Запишитесь на консультацию<br/>прямо сейчас и узнайте как<br/>избежать этих последствий</div>
@@ -90,39 +90,43 @@
 
         <section class="s2"><a name="s2"></a>
             <div class="container landingItem" id="link_uslug">
-                <div class="caption">Узнайте все варианты решения вашей проблемы</div>
+                <div class="caption">Цены на юридические услуги</div>
                 <div class="itemp">
-                    <div class="plashka">Пакет услуг<p>Полный контроль</p></div>
+                    <div class="plashka">Пакет услуг<p>Минимальный</p></div>
                     <div class="text_container">
-                        <p>Что это?</p>
+                        {*<p>Что это?</p>
                         полный комплекс юридических действий<br/>по решению вашей проблемы<br/>
-                        + контроль и отчетность по делу
+                        + контроль и отчетность по делу*}
                         <p>Вы получаете:</p>
                         <ul>
-                            <li>бесплатную консультацию</li>
-                            <li>подготовку всех документов  </li>
-                            <li>получение решения суда</li>
-                            <li>еженедельную отчетность</li>
-                            <li>полный контроль сроков и действий суда</li>
+                            <li>подготовку документов в суд;</li>
+                            <li>пошаговую инструкцию подачи документов в суд и  участия в суде</li>
                         </ul>
                     </div>
-                    <div class="plashka1">{$arResult.fullControl} руб.</div>
+                    <div class="plashka1">от 4 900 руб.</div>
                 </div>
 
                 <div class="itemp itemp1">
-                    <div class="plashka">Пакет услуг<p>Оптимальный +</p></div>
+                    <div class="plashka">Пакет услуг<p>Все включено</p></div>
                     <div class="text_container">
-                        <p>Что это?</p>
+                        {*<p>Что это?</p>
                         полный комплекс юридических действий по решению вашей проблемы без вашего участия 
-                        <p>Вы получаете:</p>
+                        <p>Вы получаете:</p>*}
+                        подготовку документов в суд;<br>
+                        подачу документов в суд;<br>
+                        полное ведение дела в суде:
                         <ul>
-                            <li>бесплатную консультацию</li>
-                            <li>подготовку всех документов</li>
-                            <li>полное ведение дела в суде</li>
+                            <li>участие в предварительном заседании</li>
+                            <li>участие во всех судебных заседаниях;</li>
+                            <li>подготовка ходатайств, заявлений;</li>
+                            <li>сбор документов;</li>
+                            <li>дача объяснений суду;</li>
+                            <li>допрос свидетелей;</li>
+                            <li>проверку протоколов суда;</li>
                             <li>получение решения суда</li>
                         </ul>
                     </div>
-                    <div class="plashka1"><p>{$arResult.optimus.oldPrice} руб.</p>{$arResult.optimus.price} руб.</div>
+                    <div class="plashka1">{*{$arResult.optimus.price}*}от 19 000 руб. *</div>
                     <div class="text_container">*цена действует только до 31.10.2015 года<br>Предоставляется рассрочка оплаты:<br>
                         50 % - при подписании договора<br>
                         50 % - через 1 месяц
@@ -131,31 +135,94 @@
 
 
                 <div class="itemp itemp2">
-                    <div class="plashka">Пакет услуг<p>Минимальный</p></div>
+                    <div class="plashka">Пакет услуг<p>VIP</p></div>
                     <div class="text_container">
-                        <p>Что это?</p>
+                        {*<p>Что это?</p>
                         первичные юридические действия по подготовке документов для суда
-                        <p>Вы получаете:</p>
+                        <p>Вы получаете:</p>*}
+                        подготовку документов в суд;<br>
+                        подачу документов в суд;<br>
+                        полное ведение дела в суде:
                         <ul>
-                            <li>бесплатную консультацию</li>
-                            <li>документы для суда</li>
-                            <li>пошаговую инструкцию подачи</li>
-                            <li>документов в суд</li>
+                            <li>участие в предварительном заседании</li>
+                            <li>участие во всех судебных заседаниях;</li>
+                            <li>подготовка ходатайств, заявлений;</li>
+                            <li>сбор документов;</li>
+                            <li>дача объяснений суду;</li>
+                            <li>допрос свидетелей;</li>
+                            <li>проверку протоколов суда;</li>
+                            <li>получение решения суда</li>
                         </ul>
+                        еженедельную отчетность по еmail;<br>
+                        3 бесплатных консультации в течение месяца;<br>
+                        доставку решения суда на дом;
+                        карту VIP клиента
                     </div>
-                    <div class="plashka1"><!-- <p>50 000 руб.</p> -->{$arResult.minimus} руб.</div>
+                    <div class="plashka1">{*<p>{$arResult.optimus.oldPrice} руб.</p>*}от 45 000 руб.</div>
                 </div>
 
-                <div class="item"><img src="images/z1.png" width="173" height="182" alt=""/>35 % клиентов<br/>уже выбрали</div>
+                {*<div class="item"><img src="images/z1.png" width="173" height="182" alt=""/>35 % клиентов<br/>уже выбрали</div>
                 <div class="item item1"><img src="images/z2.png" width="173" height="182" alt=""/>50 % клиентов<br/>уже выбрали</div>
-                <div class="item item2"><img src="images/z3.png" width="173" height="182" alt=""/>15 % клиентов<br/>уже выбрали</div>
+                <div class="item item2"><img src="images/z3.png" width="173" height="182" alt=""/>15 % клиентов<br/>уже выбрали</div>*}
                 <div class="caption1"><span>ВЫГОДНО!</span> Оплаченную вами сумму мы <span>СРАЗУ</span> и <span>БЕСПЛАТНО</span><br>взыскиваем в вашу пользу с ответчика.</div>
-                <div class="detal">Узнайте подробнее, что включает каждый пакет услуг</div>
+                <div class="caption1 top-aligh"><span>P.S.</span> Окончательная цена определяется после личной консультации<br>с адвокатом и зависит от сложности дела и его категории</div>
+{*                <div class="detal">Узнайте подробнее, что включает каждый пакет услу</div>*}
             </div>
         </section>
+        <section class="s4"><a name="s4"></a>
+            <div class="container">
+                <div class="caption">Почему личная консультация<br/>лучше консультации по телефону
+{*                    <p>7 главных преимуществ личной консультации</p>*}
+                </div>
+                <div class="itempp">
+                    <div class="plashka">Консультация по телефону</div>
+                    <div class="text_container">
+                        <ul>
+                            <li>лишь в 70 %  не является ошибочной</li>
+                            <li>ограничена во времени 5-10 минутами</li>
+                            <li>вы платите за разговор</li>
+                            <li>вы не всё можете рассказать по телефону</li>
+                            <li>вы оцениваете юриста лишь по голосу</li>
+                            <li>80 % услышанной информации вы забудете через 20 минут</li>
+                            <li>в 90 % случаев вам понадобится повторная консультация</li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="itempp itempp1">
+                    <div class="plashka">Личная консультация</div>
+                    <div class="text_container">
+                        <ul>
+                            <li>в 95 % дает правильный прогноз по делу</li>
+                            <li>вы получаете полную консультацию 1 час</li>
+                            <li>вы консультируетесь бесплатно</li>
+                            <li>вы общаетесь открыто тет-а-тет</li>
+                            <li>вы узнаете юриста лично</li>
+                            <li>вы получаете пошаговую инструкцию для практического применения</li>
+                            <li>1 личная консультация проясняет ситуацию полностью и не требует повторных обращений</li>
+                        </ul>
+                    </div>
+                </div>
 
-        <section class="s2_1"><a name="s2"></a>
+                <div class="caption1">Запишитесь на личную консультацию<br/>прямо сейчас, заполнив форму</div>
+
+                <div class="caption2">
+                    <form><div class="input"><input type="text" name="phone" placeholder="Введите свой телефон" /></div>
+                        <div class="button">
+                            <div class="small_callbutton">Личная консультация</div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="caption3">На консультации вы получите:</div>
+                <div class="item"><img src="images/5_1.png" width="173" height="182" alt=""/>Оценку своих<br>шансов по делу</div>
+                <div class="item item1"><img src="images/5_2.png" width="173" height="182" alt=""/>Личную консультацию<br/>с адвокатом со<br/>стажем 11 лет </div>
+                <div class="item item2"><img src="images/5_3.png" width="173" height="182" alt=""/>Пошаговую инструкцию<br/>подачи иска в суд </div>
+            </div>
+            <div class="downitem"><img src="images/ugol_1.png" width="107" height="54" alt=""/></div>
+        </section>
+{*Блок Узнайте подробнее, что включает каждыйй пакет услуг*}
+{*        <section class="s2_1"><a name="s2"></a>
             <div class="container">
 
                 <div class="itempp">
@@ -215,7 +282,7 @@
                 </div>
             </div>
             <div class="downitem"><img src="images/ugol_1.png" width="107" height="54" alt=""/></div>
-        </section>
+        </section>*}
 
 
 
@@ -259,12 +326,9 @@
         </section>
 
 
-
-
-        <section class="s4"><a name="s4"></a>
+{*        <section class="s4"><a name="s4"></a>
             <div class="container">
                 <div class="caption">Почему личная консультация<br/>лучше консультации по телефону
-{*                    <p>7 главных преимуществ личной консультации</p>*}
                 </div>
                 <div class="itempp">
                     <div class="plashka">Консультация по телефону</div>
@@ -312,7 +376,7 @@
                 <div class="item item2"><img src="images/5_3.png" width="173" height="182" alt=""/>Пошаговую инструкцию<br/>подачи иска в суд </div>
             </div>
             <div class="downitem"><img src="images/ugol_1.png" width="107" height="54" alt=""/></div>
-        </section>
+        </section>*}
 
 
         <section class="s5"><a name="s5"></a>

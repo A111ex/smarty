@@ -7,7 +7,7 @@ switch ($utm_content) {
         break;
     case ($utm_content == 'isk-deti'): $h1 = "Грамотные иски<br>по спорам о детях за 1 день.";
         break;
-    case ($utm_content == 'deti&utm_content=sud-deti-otec'): $h1 = "Помощь отцам в суде<br>по спорам о детях";
+    case ($utm_content == 'sud-deti-otec'): $h1 = "Помощь отцам в суде<br>по спорам о детях";
         break;
     case ($utm_content == 'obshchenie-deti'): $h1 = "Установление через суд<br>порядка общения с ребенком от 4900";
         break;

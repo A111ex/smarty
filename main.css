@@ -329,7 +329,7 @@ header nav li a:hover, header nav li a.active{color:#f05e4a !important;}
 
 .s5{z-index:105}
 .s5>div{ min-height:1436px}
-.s5{background-image:url(images/fon_2.jpg);}
+.s5{background-image:url(images/fon_1.jpg);}
 .s5 .caption{ position:absolute; top:80px; left:0px; width:100%; height:auto; color:#313842; font-family:Arial; font-size:2rem; text-align:center; font-weight:bold}
 .s5 table{ width:100%; padding-top:190px}
 .s5 table td{vertical-align:top; padding:10px}

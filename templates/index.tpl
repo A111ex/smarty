@@ -18,7 +18,7 @@
     <body>
         <header><div class="container">
                 <div class="logo">{$arResult.title}</div>
-                <div class="phone"><b>8 861 202 53 74</b></div>
+                <div class="phone"><b>8 (861) 202-53-74</b></div>
 {*                старый блок из двух ссылок*}
 {*                <div class="header_link"><a href="#y_map">Адрес</a> <a href="#fan_grafic">График работы</a></div>*}
 
@@ -76,7 +76,7 @@
                  
                 <div class="znak3"><img src="images/znak_3.png" width="103" height="138" alt=""/></div>
                 <div class="caption3">НЕ ТЕРЯЙТЕ ВРЕМЯ!</div>
-                <div class="caption4">Запишитесь на консультацию<br/>прямо сейчас и узнайте как<br/>избежать этих последствий</div>
+                <div class="caption4">Запишитесь на консультацию<br/>прямо сейчас</div>
 
                 <div class="form_all">
                     <form>
@@ -436,9 +436,9 @@
         </section>
 
 
-        <section class="s6"><a name="s6"></a>
+{*        <section class="s6"><a name="s6"></a>
             <div class="container">
-                {*<div class="caption">Мы даем 100% гарантию возврата денег,<br/>потому что уверены в своем профессионализме!</div>*}
+                <div class="caption">Мы даем 100% гарантию возврата денег,<br/>потому что уверены в своем профессионализме!</div>
                 <div class="rast"></div>
                 <div class="itemp"><br><br>В случае возврата судом подготовленного нами искового заявления или жалобы при условии выполнения всех наших рекомендаций при
                     их подаче мы гарантируем возврат вам в течение 1 дня 100 % оплаченной суммы за подготовку этого документа.<br><br>
@@ -455,7 +455,7 @@
                     <div><img src="images/pechat.png" width="174" height="174" alt=""/></div></div>
             </div>
             <div class="downitem"><img src="images/ugol_1.png" width="107" height="54" alt=""/></div>
-        </section>
+        </section>*}
 
 
         <section class="s7"><a name="s7"></a>

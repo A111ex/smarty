@@ -41,7 +41,7 @@ a:hover, a:active, a:focus {
 header { height:118px; position:fixed; top:0; left:0;  width:100%; background-image:url(images/fon_shapka.jpg); z-index:1000}
 .logo{position: absolute; left:30px; top:11px; width:auto; height:auto; font-size:1.3em}
 .phone{position: absolute; right:30px; top:15px; width:auto; height:auto; font-size:1.45em}
-.header_link{position: absolute; right:71px; top:41px; width:auto; height:auto; font-size:1.3em}
+.header_link{position: absolute; right:87px; top:41px; width:auto; height:auto; font-size:1.3em}
 /*.header_link a{color:#f05e4a !important; font-weight:bold; text-decoration:underline !important; padding-left:10px}*/
 
 header nav{position: absolute; left:0px; top:85px; width:100%; height:auto; font-size:1.1em}

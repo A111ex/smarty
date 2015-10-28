@@ -18,8 +18,12 @@
     <body>
         <header><div class="container">
                 <div class="logo">{$arResult.title}</div>
-                <div class="phone"><b>8 800 333 02 74</b></div>
-                <div class="header_link"><a href="#y_map">Адрес</a> <a href="#fan_grafic">График работы</a></div>
+                <div class="phone"><b>8 861 202 53 74</b></div>
+{*                старый блок из двух ссылок*}
+{*                <div class="header_link"><a href="#y_map">Адрес</a> <a href="#fan_grafic">График работы</a></div>*}
+
+{*                новый блок Краснодар*}
+                <div class="header_link">г.Краснодар</div>
                 <nav class="main-menu">
                     <ul>
                         <li><a href="#" class="active">Главная</a></li>
@@ -59,7 +63,7 @@
         <section class="s1"><a name="s1"></a>
             <div class="container">
                 <div class="znak"><img src="images/znak.png" width="233" height="208" alt=""/></div>
-                <div class="caption">Мы поможем</div>
+                <div class="caption" id="link_uslug">Мы поможем</div>
                 <div class="list">
                     <ul>
                         {foreach from=$arResult.caption item=item}
@@ -89,7 +93,7 @@
 
 
         <section class="s2"><a name="s2"></a>
-            <div class="container landingItem" id="link_uslug">
+            <div class="container landingItem">
                 <div class="caption">Цены на юридические услуги</div>
                 <div class="itemp">
                     <div class="plashka">Пакет услуг<p>Минимальный</p></div>
